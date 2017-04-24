@@ -1,14 +1,14 @@
 # Site
 title:              Fjding
 bio:                '追求的路上，永无止境'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+description:        "Follow Excellence,Success will chase you."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             zh_CN
-url:                https://taylantatli.github.io/Moon
+url:                http://localhost:4000
 
 # Jekyll
 permalink:          /:title/
@@ -37,25 +37,25 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
+email:              fj_ding@163.com
+#twitter:            username
+#facebook:           username
 github-url:         username
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
 #soundcloud:        username
-#weibo:             username
+weibo:             username
 #flickr:            username
 #codepen:           username
 #keybase:           username
