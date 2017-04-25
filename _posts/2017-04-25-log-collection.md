@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Testing Readability with a Bunch of Text"
+title: "Docker容器日志收集"
 date: 2017-04-25
-excerpt: "A ton of text to test readability."
-tags: [sample post, readability, test]
+excerpt: "针对Docker容器日志收集的方案的分析，以及各种收集方案的设计实现方案."
+tags: [Docker, 日志收集]
 comments: true
 ---
 
