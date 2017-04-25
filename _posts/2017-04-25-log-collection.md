@@ -26,8 +26,8 @@ comments: true
 ### 详细方案 ###
 方案1：结构图如图1所示<br>
 <figure>
-	<img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg">
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+	<img src="{{ site.url }}/assets/myimg/log-collection/20170425161901.png">
+	<figcaption>jjj</figcaption>
 </figure>
 
 <center>![截图]({{ site.url }}/assets/myimg/log-collection/20170425161901.png)</center>
