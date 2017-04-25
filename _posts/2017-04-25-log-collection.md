@@ -1,6 +1,6 @@
 ---
 layout:post
-title:Docker容器日志收集
+title:"Docker容器日志收集"
 date:2017-04-25
 excerpt:"针对Docker容器日志收集的方案的分析，以及各种收集方案的设计实现方案"
 tags:[Docker,日志收集]
