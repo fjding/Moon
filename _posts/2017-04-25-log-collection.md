@@ -37,9 +37,6 @@ comments: true
 
 方案2：结构如图2所示<br>
 ![]({{ site.url }}/assets/myimg/log-collection/20170425161924.png)
-<figure>
-	<img src="{{ site.url }}/assets/myimg/log-collection/20170425161924.png">
-</figure>
 <center> 图2 方案2结构图 </center>
 &ensp;&ensp;&ensp;&ensp;该种方案主要是将日志收集器部署在docker容器的宿主主机上，通过volume -v技术将根据一定的存储策略将每个容器中共享到宿主主机的log主目录下，然后日志收集器定期收集该目录下的文件。<br>
 &ensp;&ensp;&ensp;&ensp;假设要在一台主机上运行两个容器，容器中运行的应用都是Tomcat,（建议一个容器中指部署一个同类应用服务），则最佳的方案是运行一个shell脚本或者一个Dockerfile就能创建两个容器，每个容器中运行一个Tomcat服务，而且保证在宿主主机的日志收集目录/log/的子目录下创建不同的子目录名称，以区分不同容器的Tomcat产生的日志。
