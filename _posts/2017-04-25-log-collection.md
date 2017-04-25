@@ -1,11 +1,13 @@
 ---
-layout:post
-title:"Docker容器日志收集"
-date:2017-04-25
-excerpt:"针对Docker容器日志收集的方案的分析，以及各种收集方案的设计实现方案"
-tags:[Docker,日志收集]
-comments:true
+layout: post
+title: "Testing Readability with a Bunch of Text"
+date: 2017-04-25
+excerpt: "A ton of text to test readability."
+tags: [sample post, readability, test]
+comments: true
 ---
+
+
 
 ### 技术难点 ###
 对于Docker来说，各个docker容器是相互隔离的，因此在容器中引用程序产生的日志系统也是分布在各个容器的文件存储系统中，在宿主主机中无法看到容器中的各个文件，当有多个容器的时候，一个日志收集器无法对各个容器中日志文件进行收集。
